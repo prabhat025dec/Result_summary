@@ -1,0 +1,140 @@
+.main{
+    background-color: #F3F4F6;
+}
+.outerBox{
+    position: relative;
+    display: block;
+    background-color: white;
+    /* margin: 10px; */
+    /* margin: 100px 5px auto; */
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 700px;
+    height: 450px;
+    border-radius: 25px;
+    /* left:50px; */
+
+}
+
+.innerBox{
+     position: absolute;
+     display: inline-block;
+     background-color: #1125D4;
+     width: 325px;
+     height: 450px;
+     border-radius: 25px;
+}
+.resultText{
+    
+   position: absolute;
+   display: block;
+  margin: 45px auto 30px 110px;
+  font-size: 1.25rem;
+  /* line-height: 1.75rem; */
+  color: #F7C8E0;
+  /*  */
+
+}
+.circle{
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 130px;
+    /* background-color: red; */
+    margin: 80px auto 0px 95px;
+   border-radius: 65px;
+   /* background-color: #2B3467; */
+   background-image: linear-gradient(#301E67,#1125D4);
+  
+    
+}
+ .score-text-size{
+    font-size: 3rem;
+    margin:10px;
+   
+ }
+.center-text{
+    text-align: center;
+}
+.white-text{
+    color: white;
+}
+.Font{
+    font-size: 1.25rem;
+    color: #F7C8E0;
+}
+.Great{
+  margin: 250px 0px 0px 140px;
+  font-size: 1.5rem;
+}
+.your-score{
+  margin: 20px 75px 10px 75px;
+  color:#F7C8E0;
+  font-size: 1.0rem;
+}
+
+.innerBox2{
+    position: absolute;
+    width: 375px;
+    height: 450px;
+    margin-left:325px;
+    /* background-color: red; */
+}
+.summary{
+    position: absolute;
+    line-height:1.6;
+    left: 30px;
+    font-size: 1.5rem;
+    /* color: red; */
+}
+.rectangle{
+    position: absolute;
+    display: inline-block;
+    /* background-color: red; */
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    left: 30px;
+
+}
+.rectangle1{
+    top:70px;
+    background-color: #FEE2E2;
+
+}
+.rectangle2{
+   top:150px;
+   background-color: #FEF9C3;
+
+}
+.rectangle3{
+   top: 230px;
+   background-color: #DCFCE7;
+}
+.rectangle4{
+   top:310px;
+   background-color: #DBEAFE;
+
+}
+.rectangle5{
+    top: 390px;
+    background-color: #060047;
+    border-radius: 25px;
+}
+.rectangle5:hover{
+    background-color: #1125D4;
+}
+.icon-image{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+
+}
+.icon-text{
+    position:absolute;
+    left: 50px;
+}
+.marks-text{
+    position: absolute;
+    left: 240px;
+}
